@@ -1,4 +1,4 @@
-MachINE Learning 2027 — Avisos de bibliotecas de terceros
+MachINE Learning 2027 — Avisos de terceros
 
 shadcn/ui — Licencia MIT
 Código incluido: frontend/src/components/ui/dialog.tsx.
@@ -33,3 +33,29 @@ en las distribuciones originales de cada paquete. Si se entregan también
 esas bibliotecas o compilaciones que incorporen su código, deberán
 acompañarse de las licencias y avisos correspondientes; este archivo breve
 no sustituye dichos requisitos.
+
+Cartografía — geoBoundaries gbOpen, México ADM1
+Fuente atribuida en los metadatos: Instituto Nacional de Estadística y
+Geografía (INEGI). Límites representativos de 2020, publicados en 2024.
+Identificador: MEX-ADM1-31927357. Revisión de distribución: 90a1d52.
+Distribución geoBoundaries: CC BY 4.0.
+https://creativecommons.org/licenses/by/4.0/
+Licencia de origen declarada para este conjunto: CC BY 3.0 IGO.
+https://creativecommons.org/licenses/by/3.0/igo/
+Fuente de distribución: https://www.geoboundaries.org/
+API: https://www.geoboundaries.org/api/current/gbOpen/MEX/ADM1/
+Origen citado por el proveedor:
+https://data.humdata.org/dataset/mexican-administrative-level-0-country-1-estado-and-2-municipio-boundary-polygons
+Archivo y huellas verificadas: frontend/src/data/geometria_auditoria.json.
+Transformaciones: versión simplificada del proveedor adaptada a n/t/c,
+nombres compatibles con la interfaz y orientación de anillos para D3.
+No se eliminaron islas ni componentes, ni se redondearon coordenadas.
+El campo shapeISO duplicado para Ciudad de México y Estado de México no
+se utiliza para unir datos; el cruce se hizo por nombres únicos.
+Estos cambios no modifican datos ni estimaciones electorales y no implican
+aval del INEGI ni de geoBoundaries. No se certifica exactitud cartográfica.
+Referencia: Runfola D. et al. (2020), geoBoundaries: A global database of
+political administrative boundaries. PLoS ONE 15(4): e0231866.
+https://doi.org/10.1371/journal.pone.0231866
+Los respaldos de Data/backups/cartografia_anterior/ no forman parte de la
+cartografía activa y deben excluirse de la distribución final.

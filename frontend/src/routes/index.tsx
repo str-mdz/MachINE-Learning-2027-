@@ -249,6 +249,12 @@ function Index() {
               </div>
             </>
           )}
+          <p className="method-note">
+            Cartografía: <a href="https://www.geoboundaries.org/">geoBoundaries</a> · Fuente:
+            INEGI, 2020. <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>;
+            licencia de origen: <a href="https://creativecommons.org/licenses/by/3.0/igo/">CC BY 3.0 IGO</a>.
+            Geometrías adaptadas; sin aval de los proveedores.
+          </p>
         </section>
         <div id="analysis-panel" tabIndex={-1}>
           <SideMenu
