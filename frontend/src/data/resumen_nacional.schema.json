@@ -1,0 +1,120 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "tabla",
+    "fuente_csv",
+    "fuente_sha256",
+    "filas",
+    "unidades",
+    "registros"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {
+      "const": "1.0"
+    },
+    "tabla": {
+      "const": "resumen_nacional"
+    },
+    "unidades": {
+      "const": {
+        "escenario": "ver_nombre_y_diccionario",
+        "reduccion_supuesta_pp": "puntos_porcentuales",
+        "abstencion_nacional_pct": "porcentaje_0_100",
+        "participacion_nacional_pct": "porcentaje_0_100",
+        "reduccion_nacional_efectiva_pp": "puntos_porcentuales",
+        "denominador_conocidos_2021": "ver_nombre_y_diccionario",
+        "anio_ponderacion": "ver_nombre_y_diccionario",
+        "entidades": "ver_nombre_y_diccionario",
+        "entidades_limitadas": "ver_nombre_y_diccionario"
+      }
+    },
+    "fuente_csv": {
+      "type": "string"
+    },
+    "fuente_sha256": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "filas": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "registros": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "escenario",
+          "reduccion_supuesta_pp",
+          "abstencion_nacional_pct",
+          "participacion_nacional_pct",
+          "reduccion_nacional_efectiva_pp",
+          "denominador_conocidos_2021",
+          "anio_ponderacion",
+          "entidades",
+          "entidades_limitadas"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "escenario": {
+            "type": "string",
+            "enum": [
+              "sin_intervencion",
+              "con_intervencion"
+            ]
+          },
+          "reduccion_supuesta_pp": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 9007199254740991,
+            "enum": [
+              0,
+              1,
+              3,
+              5
+            ]
+          },
+          "abstencion_nacional_pct": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 100
+          },
+          "participacion_nacional_pct": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 100
+          },
+          "reduccion_nacional_efectiva_pp": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 100
+          },
+          "denominador_conocidos_2021": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 9007199254740991
+          },
+          "anio_ponderacion": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 9007199254740991,
+            "const": 2021
+          },
+          "entidades": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 9007199254740991
+          },
+          "entidades_limitadas": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 9007199254740991
+          }
+        }
+      }
+    }
+  }
+}

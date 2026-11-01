@@ -1,0 +1,339 @@
+{
+  "schema_version": "1.0",
+  "tabla": "semaforo_territorial",
+  "fuente_csv": "results/tables/fase4/semaforo_territorial.csv",
+  "fuente_sha256": "36e30bc1bb499b7641d1ed24cd6498c07b84f64f69de98e78d4448bf59c56f93",
+  "filas": 32,
+  "unidades": {
+    "entidad_clave": "clave_texto_2_digitos",
+    "entidad_nombre": "ver_nombre_y_diccionario",
+    "anio_proyeccion": "ver_nombre_y_diccionario",
+    "abstencion_referencia_pct": "porcentaje_0_100",
+    "riesgo_relativo": "ver_nombre_y_diccionario",
+    "umbral_bajo_pct": "porcentaje_0_100",
+    "umbral_medio_pct": "porcentaje_0_100",
+    "criterio": "ver_nombre_y_diccionario"
+  },
+  "registros": [
+    {
+      "entidad_clave": "01",
+      "entidad_nombre": "AGUASCALIENTES",
+      "anio_proyeccion": 2027,
+      "abstencion_referencia_pct": 48.2570171723,
+      "riesgo_relativo": "medio",
+      "umbral_bajo_pct": 44.5083435388,
+      "umbral_medio_pct": 50.1824817561,
+      "criterio": "terciles_estatales_ridge_2027_lineal"
+    },
+    {
+      "entidad_clave": "02",
+      "entidad_nombre": "BAJA CALIFORNIA",
+      "anio_proyeccion": 2027,
+      "abstencion_referencia_pct": 62.1815822245,
+      "riesgo_relativo": "alto",
+      "umbral_bajo_pct": 44.5083435388,
+      "umbral_medio_pct": 50.1824817561,
+      "criterio": "terciles_estatales_ridge_2027_lineal"
+    },
+    {
+      "entidad_clave": "03",
+      "entidad_nombre": "BAJA CALIFORNIA SUR",
+      "anio_proyeccion": 2027,
+      "abstencion_referencia_pct": 53.8216002689,
+      "riesgo_relativo": "alto",
+      "umbral_bajo_pct": 44.5083435388,
+      "umbral_medio_pct": 50.1824817561,
+      "criterio": "terciles_estatales_ridge_2027_lineal"
+    },
+    {
+      "entidad_clave": "04",
+      "entidad_nombre": "CAMPECHE",
+      "anio_proyeccion": 2027,
+      "abstencion_referencia_pct": 39.3454844419,
+      "riesgo_relativo": "bajo",
+      "umbral_bajo_pct": 44.5083435388,
+      "umbral_medio_pct": 50.1824817561,
+      "criterio": "terciles_estatales_ridge_2027_lineal"
+    },
+    {
+      "entidad_clave": "05",
+      "entidad_nombre": "COAHUILA",
+      "anio_proyeccion": 2027,
+      "abstencion_referencia_pct": 42.0834124125,
+      "riesgo_relativo": "bajo",
+      "umbral_bajo_pct": 44.5083435388,
+      "umbral_medio_pct": 50.1824817561,
+      "criterio": "terciles_estatales_ridge_2027_lineal"
+    },
+    {
+      "entidad_clave": "06",
+      "entidad_nombre": "COLIMA",
+      "anio_proyeccion": 2027,
+      "abstencion_referencia_pct": 49.200291873,
+      "riesgo_relativo": "medio",
+      "umbral_bajo_pct": 44.5083435388,
+      "umbral_medio_pct": 50.1824817561,
+      "criterio": "terciles_estatales_ridge_2027_lineal"
+    },
+    {
+      "entidad_clave": "07",
+      "entidad_nombre": "CHIAPAS",
+      "anio_proyeccion": 2027,
+      "abstencion_referencia_pct": 37.8554407773,
+      "riesgo_relativo": "bajo",
+      "umbral_bajo_pct": 44.5083435388,
+      "umbral_medio_pct": 50.1824817561,
+      "criterio": "terciles_estatales_ridge_2027_lineal"
+    },
+    {
+      "entidad_clave": "08",
+      "entidad_nombre": "CHIHUAHUA",
+      "anio_proyeccion": 2027,
+      "abstencion_referencia_pct": 54.0067108944,
+      "riesgo_relativo": "alto",
+      "umbral_bajo_pct": 44.5083435388,
+      "umbral_medio_pct": 50.1824817561,
+      "criterio": "terciles_estatales_ridge_2027_lineal"
+    },
+    {
+      "entidad_clave": "09",
+      "entidad_nombre": "CIUDAD DE MEXICO",
+      "anio_proyeccion": 2027,
+      "abstencion_referencia_pct": 46.1905962929,
+      "riesgo_relativo": "medio",
+      "umbral_bajo_pct": 44.5083435388,
+      "umbral_medio_pct": 50.1824817561,
+      "criterio": "terciles_estatales_ridge_2027_lineal"
+    },
+    {
+      "entidad_clave": "10",
+      "entidad_nombre": "DURANGO",
+      "anio_proyeccion": 2027,
+      "abstencion_referencia_pct": 55.9260789672,
+      "riesgo_relativo": "alto",
+      "umbral_bajo_pct": 44.5083435388,
+      "umbral_medio_pct": 50.1824817561,
+      "criterio": "terciles_estatales_ridge_2027_lineal"
+    },
+    {
+      "entidad_clave": "11",
+      "entidad_nombre": "GUANAJUATO",
+      "anio_proyeccion": 2027,
+      "abstencion_referencia_pct": 53.6166381162,
+      "riesgo_relativo": "alto",
+      "umbral_bajo_pct": 44.5083435388,
+      "umbral_medio_pct": 50.1824817561,
+      "criterio": "terciles_estatales_ridge_2027_lineal"
+    },
+    {
+      "entidad_clave": "12",
+      "entidad_nombre": "GUERRERO",
+      "anio_proyeccion": 2027,
+      "abstencion_referencia_pct": 43.1543289865,
+      "riesgo_relativo": "bajo",
+      "umbral_bajo_pct": 44.5083435388,
+      "umbral_medio_pct": 50.1824817561,
+      "criterio": "terciles_estatales_ridge_2027_lineal"
+    },
+    {
+      "entidad_clave": "13",
+      "entidad_nombre": "HIDALGO",
+      "anio_proyeccion": 2027,
+      "abstencion_referencia_pct": 50.0146210929,
+      "riesgo_relativo": "medio",
+      "umbral_bajo_pct": 44.5083435388,
+      "umbral_medio_pct": 50.1824817561,
+      "criterio": "terciles_estatales_ridge_2027_lineal"
+    },
+    {
+      "entidad_clave": "14",
+      "entidad_nombre": "JALISCO",
+      "anio_proyeccion": 2027,
+      "abstencion_referencia_pct": 51.4178359523,
+      "riesgo_relativo": "alto",
+      "umbral_bajo_pct": 44.5083435388,
+      "umbral_medio_pct": 50.1824817561,
+      "criterio": "terciles_estatales_ridge_2027_lineal"
+    },
+    {
+      "entidad_clave": "15",
+      "entidad_nombre": "MEXICO",
+      "anio_proyeccion": 2027,
+      "abstencion_referencia_pct": 44.6475834455,
+      "riesgo_relativo": "medio",
+      "umbral_bajo_pct": 44.5083435388,
+      "umbral_medio_pct": 50.1824817561,
+      "criterio": "terciles_estatales_ridge_2027_lineal"
+    },
+    {
+      "entidad_clave": "16",
+      "entidad_nombre": "MICHOACAN",
+      "anio_proyeccion": 2027,
+      "abstencion_referencia_pct": 51.2376344359,
+      "riesgo_relativo": "alto",
+      "umbral_bajo_pct": 44.5083435388,
+      "umbral_medio_pct": 50.1824817561,
+      "criterio": "terciles_estatales_ridge_2027_lineal"
+    },
+    {
+      "entidad_clave": "17",
+      "entidad_nombre": "MORELOS",
+      "anio_proyeccion": 2027,
+      "abstencion_referencia_pct": 46.5231601542,
+      "riesgo_relativo": "medio",
+      "umbral_bajo_pct": 44.5083435388,
+      "umbral_medio_pct": 50.1824817561,
+      "criterio": "terciles_estatales_ridge_2027_lineal"
+    },
+    {
+      "entidad_clave": "18",
+      "entidad_nombre": "NAYARIT",
+      "anio_proyeccion": 2027,
+      "abstencion_referencia_pct": 48.5666879842,
+      "riesgo_relativo": "medio",
+      "umbral_bajo_pct": 44.5083435388,
+      "umbral_medio_pct": 50.1824817561,
+      "criterio": "terciles_estatales_ridge_2027_lineal"
+    },
+    {
+      "entidad_clave": "19",
+      "entidad_nombre": "NUEVO LEON",
+      "anio_proyeccion": 2027,
+      "abstencion_referencia_pct": 50.2664120876,
+      "riesgo_relativo": "alto",
+      "umbral_bajo_pct": 44.5083435388,
+      "umbral_medio_pct": 50.1824817561,
+      "criterio": "terciles_estatales_ridge_2027_lineal"
+    },
+    {
+      "entidad_clave": "20",
+      "entidad_nombre": "OAXACA",
+      "anio_proyeccion": 2027,
+      "abstencion_referencia_pct": 43.7429884634,
+      "riesgo_relativo": "bajo",
+      "umbral_bajo_pct": 44.5083435388,
+      "umbral_medio_pct": 50.1824817561,
+      "criterio": "terciles_estatales_ridge_2027_lineal"
+    },
+    {
+      "entidad_clave": "21",
+      "entidad_nombre": "PUEBLA",
+      "anio_proyeccion": 2027,
+      "abstencion_referencia_pct": 41.6568048341,
+      "riesgo_relativo": "bajo",
+      "umbral_bajo_pct": 44.5083435388,
+      "umbral_medio_pct": 50.1824817561,
+      "criterio": "terciles_estatales_ridge_2027_lineal"
+    },
+    {
+      "entidad_clave": "22",
+      "entidad_nombre": "QUERETARO",
+      "anio_proyeccion": 2027,
+      "abstencion_referencia_pct": 47.66659398,
+      "riesgo_relativo": "medio",
+      "umbral_bajo_pct": 44.5083435388,
+      "umbral_medio_pct": 50.1824817561,
+      "criterio": "terciles_estatales_ridge_2027_lineal"
+    },
+    {
+      "entidad_clave": "23",
+      "entidad_nombre": "QUINTANA ROO",
+      "anio_proyeccion": 2027,
+      "abstencion_referencia_pct": 56.2003073615,
+      "riesgo_relativo": "alto",
+      "umbral_bajo_pct": 44.5083435388,
+      "umbral_medio_pct": 50.1824817561,
+      "criterio": "terciles_estatales_ridge_2027_lineal"
+    },
+    {
+      "entidad_clave": "24",
+      "entidad_nombre": "SAN LUIS POTOSI",
+      "anio_proyeccion": 2027,
+      "abstencion_referencia_pct": 41.7256928296,
+      "riesgo_relativo": "bajo",
+      "umbral_bajo_pct": 44.5083435388,
+      "umbral_medio_pct": 50.1824817561,
+      "criterio": "terciles_estatales_ridge_2027_lineal"
+    },
+    {
+      "entidad_clave": "25",
+      "entidad_nombre": "SINALOA",
+      "anio_proyeccion": 2027,
+      "abstencion_referencia_pct": 50.6796114639,
+      "riesgo_relativo": "alto",
+      "umbral_bajo_pct": 44.5083435388,
+      "umbral_medio_pct": 50.1824817561,
+      "criterio": "terciles_estatales_ridge_2027_lineal"
+    },
+    {
+      "entidad_clave": "26",
+      "entidad_nombre": "SONORA",
+      "anio_proyeccion": 2027,
+      "abstencion_referencia_pct": 57.284646454,
+      "riesgo_relativo": "alto",
+      "umbral_bajo_pct": 44.5083435388,
+      "umbral_medio_pct": 50.1824817561,
+      "criterio": "terciles_estatales_ridge_2027_lineal"
+    },
+    {
+      "entidad_clave": "27",
+      "entidad_nombre": "TABASCO",
+      "anio_proyeccion": 2027,
+      "abstencion_referencia_pct": 46.6113286154,
+      "riesgo_relativo": "medio",
+      "umbral_bajo_pct": 44.5083435388,
+      "umbral_medio_pct": 50.1824817561,
+      "criterio": "terciles_estatales_ridge_2027_lineal"
+    },
+    {
+      "entidad_clave": "28",
+      "entidad_nombre": "TAMAULIPAS",
+      "anio_proyeccion": 2027,
+      "abstencion_referencia_pct": 49.2431831478,
+      "riesgo_relativo": "medio",
+      "umbral_bajo_pct": 44.5083435388,
+      "umbral_medio_pct": 50.1824817561,
+      "criterio": "terciles_estatales_ridge_2027_lineal"
+    },
+    {
+      "entidad_clave": "29",
+      "entidad_nombre": "TLAXCALA",
+      "anio_proyeccion": 2027,
+      "abstencion_referencia_pct": 33.0564439256,
+      "riesgo_relativo": "bajo",
+      "umbral_bajo_pct": 44.5083435388,
+      "umbral_medio_pct": 50.1824817561,
+      "criterio": "terciles_estatales_ridge_2027_lineal"
+    },
+    {
+      "entidad_clave": "30",
+      "entidad_nombre": "VERACRUZ",
+      "anio_proyeccion": 2027,
+      "abstencion_referencia_pct": 42.1789284551,
+      "riesgo_relativo": "bajo",
+      "umbral_bajo_pct": 44.5083435388,
+      "umbral_medio_pct": 50.1824817561,
+      "criterio": "terciles_estatales_ridge_2027_lineal"
+    },
+    {
+      "entidad_clave": "31",
+      "entidad_nombre": "YUCATAN",
+      "anio_proyeccion": 2027,
+      "abstencion_referencia_pct": 36.2844538659,
+      "riesgo_relativo": "bajo",
+      "umbral_bajo_pct": 44.5083435388,
+      "umbral_medio_pct": 50.1824817561,
+      "criterio": "terciles_estatales_ridge_2027_lineal"
+    },
+    {
+      "entidad_clave": "32",
+      "entidad_nombre": "ZACATECAS",
+      "anio_proyeccion": 2027,
+      "abstencion_referencia_pct": 44.4387235854,
+      "riesgo_relativo": "bajo",
+      "umbral_bajo_pct": 44.5083435388,
+      "umbral_medio_pct": 50.1824817561,
+      "criterio": "terciles_estatales_ridge_2027_lineal"
+    }
+  ]
+}

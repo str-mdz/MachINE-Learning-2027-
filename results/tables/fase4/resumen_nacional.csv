@@ -1,0 +1,5 @@
+escenario,reduccion_supuesta_pp,abstencion_nacional_pct,participacion_nacional_pct,reduccion_nacional_efectiva_pp,denominador_conocidos_2021,anio_ponderacion,entidades,entidades_limitadas
+sin_intervencion,0,47.1918932946,52.8081067054,0.0000000000,89488813,2021,32,0
+con_intervencion,1,46.1918932946,53.8081067054,1.0000000000,89488813,2021,32,0
+con_intervencion,3,44.1918932946,55.8081067054,3.0000000000,89488813,2021,32,0
+con_intervencion,5,42.1918932946,57.8081067054,5.0000000000,89488813,2021,32,0

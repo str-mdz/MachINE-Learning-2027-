@@ -1,0 +1,62 @@
+[
+  {
+    "archivo": "participacion_estatal.json",
+    "origen": "frontend/src/data/participacion_estatal.json",
+    "sha256": "a1df4b29623d8adbc982fa33b33e714c5349f9adb21664351020801de5ff5489"
+  },
+  {
+    "archivo": "participacion_estatal.schema.json",
+    "origen": "frontend/src/data/participacion_estatal.schema.json",
+    "sha256": "62a10ad34091662e5d46928c933db895add2a403d7dec3247ba085305d00261e"
+  },
+  {
+    "archivo": "semaforo_territorial.json",
+    "origen": "frontend/src/data/semaforo_territorial.json",
+    "sha256": "ded562bdf061706e945aefac01027ed60b035afa15757c8d6488b63a2265fca0"
+  },
+  {
+    "archivo": "semaforo_territorial.schema.json",
+    "origen": "frontend/src/data/semaforo_territorial.schema.json",
+    "sha256": "562b6dbbee10efb987d58573fd7f177b7e33594a986fe1f5be37d8e1fc78f2b1"
+  },
+  {
+    "archivo": "escenarios_2027.json",
+    "origen": "frontend/src/data/escenarios_2027.json",
+    "sha256": "0e2a60140e3b3eecbc2d49bbb27db820920876300545379333d19396761be1f1"
+  },
+  {
+    "archivo": "escenarios_2027.schema.json",
+    "origen": "frontend/src/data/escenarios_2027.schema.json",
+    "sha256": "f5607ebacca1bd5dab1f90dbd4e1c109c258958a985ac1d75be56ddb4fe0cc22"
+  },
+  {
+    "archivo": "resumen_nacional.json",
+    "origen": "frontend/src/data/resumen_nacional.json",
+    "sha256": "daa0094ed23c2422354a001aff955cded711eb321bb59449c8279d938e093dfc"
+  },
+  {
+    "archivo": "resumen_nacional.schema.json",
+    "origen": "frontend/src/data/resumen_nacional.schema.json",
+    "sha256": "66fadc11acde9f39424347fe6b979ad198991664d1d67fd1ed82bbf15b1d701d"
+  },
+  {
+    "archivo": "proyeccion_2027.json",
+    "origen": "frontend/src/data/proyeccion_2027.json",
+    "sha256": "b2b33fc22a48c1fea2665916d2353f0d4f9800b82c310362ce52f02a9419c039"
+  },
+  {
+    "archivo": "proyeccion_2027.schema.json",
+    "origen": "frontend/src/data/proyeccion_2027.schema.json",
+    "sha256": "3ef4ba41e67517ac9349782834d5ad7c158e4c1b8c6ba5fea194030072bd709b"
+  },
+  {
+    "archivo": "comparacion_modelos.json",
+    "origen": "frontend/src/data/comparacion_modelos.json",
+    "sha256": "d1a20116f7c7e3e383ce258cfd169225b6d8e6208e173d0cf711440ca175fa7e"
+  },
+  {
+    "archivo": "comparacion_modelos.schema.json",
+    "origen": "frontend/src/data/comparacion_modelos.schema.json",
+    "sha256": "06c79be3922c37deea53250b0d6ffec898e5a8ed2f5001f60f922a1384860da6"
+  }
+]

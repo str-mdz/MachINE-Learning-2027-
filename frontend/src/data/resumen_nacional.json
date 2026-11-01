@@ -1,0 +1,64 @@
+{
+  "schema_version": "1.0",
+  "tabla": "resumen_nacional",
+  "fuente_csv": "results/tables/fase4/resumen_nacional.csv",
+  "fuente_sha256": "c9a70c9879d0871323422b6330aeed081401e0fa904320256c4cefa0fde2d683",
+  "filas": 4,
+  "unidades": {
+    "escenario": "ver_nombre_y_diccionario",
+    "reduccion_supuesta_pp": "puntos_porcentuales",
+    "abstencion_nacional_pct": "porcentaje_0_100",
+    "participacion_nacional_pct": "porcentaje_0_100",
+    "reduccion_nacional_efectiva_pp": "puntos_porcentuales",
+    "denominador_conocidos_2021": "ver_nombre_y_diccionario",
+    "anio_ponderacion": "ver_nombre_y_diccionario",
+    "entidades": "ver_nombre_y_diccionario",
+    "entidades_limitadas": "ver_nombre_y_diccionario"
+  },
+  "registros": [
+    {
+      "escenario": "sin_intervencion",
+      "reduccion_supuesta_pp": 0,
+      "abstencion_nacional_pct": 47.1918932946,
+      "participacion_nacional_pct": 52.8081067054,
+      "reduccion_nacional_efectiva_pp": 0.0,
+      "denominador_conocidos_2021": 89488813,
+      "anio_ponderacion": 2021,
+      "entidades": 32,
+      "entidades_limitadas": 0
+    },
+    {
+      "escenario": "con_intervencion",
+      "reduccion_supuesta_pp": 1,
+      "abstencion_nacional_pct": 46.1918932946,
+      "participacion_nacional_pct": 53.8081067054,
+      "reduccion_nacional_efectiva_pp": 1.0,
+      "denominador_conocidos_2021": 89488813,
+      "anio_ponderacion": 2021,
+      "entidades": 32,
+      "entidades_limitadas": 0
+    },
+    {
+      "escenario": "con_intervencion",
+      "reduccion_supuesta_pp": 3,
+      "abstencion_nacional_pct": 44.1918932946,
+      "participacion_nacional_pct": 55.8081067054,
+      "reduccion_nacional_efectiva_pp": 3.0,
+      "denominador_conocidos_2021": 89488813,
+      "anio_ponderacion": 2021,
+      "entidades": 32,
+      "entidades_limitadas": 0
+    },
+    {
+      "escenario": "con_intervencion",
+      "reduccion_supuesta_pp": 5,
+      "abstencion_nacional_pct": 42.1918932946,
+      "participacion_nacional_pct": 57.8081067054,
+      "reduccion_nacional_efectiva_pp": 5.0,
+      "denominador_conocidos_2021": 89488813,
+      "anio_ponderacion": 2021,
+      "entidades": 32,
+      "entidades_limitadas": 0
+    }
+  ]
+}

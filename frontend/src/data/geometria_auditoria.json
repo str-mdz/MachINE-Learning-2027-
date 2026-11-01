@@ -1,0 +1,328 @@
+{
+  "shapely": "2.2.0",
+  "sha256_original": "d1a53e1cf7d356f1da4aa3b2667ebe54e6aeb32fbedea0f3bfe4818c9a1011b6",
+  "sha256_derivado": "cd687ef54d2d09ab87eb26d30329d42480e2dfd500c1943dcdf886db72283b4e",
+  "alcance": "Copia derivada para comparación 2D. Sin certificación cartográfica o de procedencia. Original intacto.",
+  "entidades": [
+    {
+      "nombre": "Distrito Federal",
+      "valido_original": true,
+      "diagnostico": "Valid Geometry",
+      "valido_derivado": true,
+      "area_original_grados2": 0.12907299999999916,
+      "area_derivada_grados2": 0.12907299999999916,
+      "tipo_make_valid": "Polygon",
+      "segmentos_sin_area_excluidos": false
+    },
+    {
+      "nombre": "Guerrero",
+      "valido_original": true,
+      "diagnostico": "Valid Geometry",
+      "valido_derivado": true,
+      "area_original_grados2": 5.418235500000003,
+      "area_derivada_grados2": 5.418235500000003,
+      "tipo_make_valid": "Polygon",
+      "segmentos_sin_area_excluidos": false
+    },
+    {
+      "nombre": "México",
+      "valido_original": true,
+      "diagnostico": "Valid Geometry",
+      "valido_derivado": true,
+      "area_original_grados2": 1.9206524999999985,
+      "area_derivada_grados2": 1.9206524999999985,
+      "tipo_make_valid": "Polygon",
+      "segmentos_sin_area_excluidos": false
+    },
+    {
+      "nombre": "Morelos",
+      "valido_original": true,
+      "diagnostico": "Valid Geometry",
+      "valido_derivado": true,
+      "area_original_grados2": 0.41740050000000134,
+      "area_derivada_grados2": 0.41740050000000134,
+      "tipo_make_valid": "Polygon",
+      "segmentos_sin_area_excluidos": false
+    },
+    {
+      "nombre": "Sinaloa",
+      "valido_original": false,
+      "diagnostico": "Self-intersection[-109.189 26.334]",
+      "valido_derivado": true,
+      "area_original_grados2": 5.1385219999999965,
+      "area_derivada_grados2": 5.138522000000001,
+      "tipo_make_valid": "GeometryCollection",
+      "segmentos_sin_area_excluidos": true
+    },
+    {
+      "nombre": "Baja California",
+      "valido_original": true,
+      "diagnostico": "Valid Geometry",
+      "valido_derivado": true,
+      "area_original_grados2": 6.884932000000007,
+      "area_derivada_grados2": 6.884932000000007,
+      "tipo_make_valid": "MultiPolygon",
+      "segmentos_sin_area_excluidos": false
+    },
+    {
+      "nombre": "Sonora",
+      "valido_original": false,
+      "diagnostico": "Self-intersection[-109.189 26.333]",
+      "valido_derivado": true,
+      "area_original_grados2": 16.842023999999988,
+      "area_derivada_grados2": 16.842023999999988,
+      "tipo_make_valid": "GeometryCollection",
+      "segmentos_sin_area_excluidos": true
+    },
+    {
+      "nombre": "Baja California Sur",
+      "valido_original": true,
+      "diagnostico": "Valid Geometry",
+      "valido_derivado": true,
+      "area_original_grados2": 6.728686500000002,
+      "area_derivada_grados2": 6.728686500000002,
+      "tipo_make_valid": "MultiPolygon",
+      "segmentos_sin_area_excluidos": false
+    },
+    {
+      "nombre": "Zacatecas",
+      "valido_original": false,
+      "diagnostico": "Self-intersection[-103.058439470366 21.0983537200504]",
+      "valido_derivado": true,
+      "area_original_grados2": 6.647064000000003,
+      "area_derivada_grados2": 6.647064439470368,
+      "tipo_make_valid": "MultiPolygon",
+      "segmentos_sin_area_excluidos": false
+    },
+    {
+      "nombre": "Durango",
+      "valido_original": true,
+      "diagnostico": "Valid Geometry",
+      "valido_derivado": true,
+      "area_original_grados2": 11.026538500000003,
+      "area_derivada_grados2": 11.026538500000003,
+      "tipo_make_valid": "Polygon",
+      "segmentos_sin_area_excluidos": false
+    },
+    {
+      "nombre": "Chihuahua",
+      "valido_original": true,
+      "diagnostico": "Valid Geometry",
+      "valido_derivado": true,
+      "area_original_grados2": 22.876181000000027,
+      "area_derivada_grados2": 22.876181000000027,
+      "tipo_make_valid": "Polygon",
+      "segmentos_sin_area_excluidos": false
+    },
+    {
+      "nombre": "Colima",
+      "valido_original": false,
+      "diagnostico": "Self-intersection[-104.590218297281 19.1505556658067]",
+      "valido_derivado": true,
+      "area_original_grados2": 0.4932804999999988,
+      "area_derivada_grados2": 0.49328203583988134,
+      "tipo_make_valid": "MultiPolygon",
+      "segmentos_sin_area_excluidos": false
+    },
+    {
+      "nombre": "Nayarit",
+      "valido_original": true,
+      "diagnostico": "Valid Geometry",
+      "valido_derivado": true,
+      "area_original_grados2": 2.4542825000000024,
+      "area_derivada_grados2": 2.4542825000000024,
+      "tipo_make_valid": "MultiPolygon",
+      "segmentos_sin_area_excluidos": false
+    },
+    {
+      "nombre": "Michoacán de Ocampo",
+      "valido_original": false,
+      "diagnostico": "Self-intersection[-100.153104166667 20.0515520833333]",
+      "valido_derivado": true,
+      "area_original_grados2": 5.032948000000004,
+      "area_derivada_grados2": 5.032985760416663,
+      "tipo_make_valid": "MultiPolygon",
+      "segmentos_sin_area_excluidos": false
+    },
+    {
+      "nombre": "Jalisco",
+      "valido_original": false,
+      "diagnostico": "Self-intersection[-103.058439470366 21.0983537200504]",
+      "valido_derivado": true,
+      "area_original_grados2": 6.8133145000000095,
+      "area_derivada_grados2": 6.8133140605296365,
+      "tipo_make_valid": "Polygon",
+      "segmentos_sin_area_excluidos": false
+    },
+    {
+      "nombre": "Chiapas",
+      "valido_original": true,
+      "diagnostico": "Valid Geometry",
+      "valido_derivado": true,
+      "area_original_grados2": 6.206671499999997,
+      "area_derivada_grados2": 6.206671499999997,
+      "tipo_make_valid": "Polygon",
+      "segmentos_sin_area_excluidos": false
+    },
+    {
+      "nombre": "Tabasco",
+      "valido_original": true,
+      "diagnostico": "Valid Geometry",
+      "valido_derivado": true,
+      "area_original_grados2": 2.110159000000002,
+      "area_derivada_grados2": 2.110159000000002,
+      "tipo_make_valid": "Polygon",
+      "segmentos_sin_area_excluidos": false
+    },
+    {
+      "nombre": "Oaxaca",
+      "valido_original": true,
+      "diagnostico": "Valid Geometry",
+      "valido_derivado": true,
+      "area_original_grados2": 7.956008500000007,
+      "area_derivada_grados2": 7.956008500000007,
+      "tipo_make_valid": "Polygon",
+      "segmentos_sin_area_excluidos": false
+    },
+    {
+      "nombre": "Guanajuato",
+      "valido_original": true,
+      "diagnostico": "Valid Geometry",
+      "valido_derivado": true,
+      "area_original_grados2": 2.6564094999999974,
+      "area_derivada_grados2": 2.6564094999999974,
+      "tipo_make_valid": "Polygon",
+      "segmentos_sin_area_excluidos": false
+    },
+    {
+      "nombre": "Aguascalientes",
+      "valido_original": true,
+      "diagnostico": "Valid Geometry",
+      "valido_derivado": true,
+      "area_original_grados2": 0.4915534999999999,
+      "area_derivada_grados2": 0.4915534999999999,
+      "tipo_make_valid": "Polygon",
+      "segmentos_sin_area_excluidos": false
+    },
+    {
+      "nombre": "Querétaro",
+      "valido_original": true,
+      "diagnostico": "Valid Geometry",
+      "valido_derivado": true,
+      "area_original_grados2": 1.015078000000001,
+      "area_derivada_grados2": 1.015078000000001,
+      "tipo_make_valid": "Polygon",
+      "segmentos_sin_area_excluidos": false
+    },
+    {
+      "nombre": "San Luis Potosí",
+      "valido_original": true,
+      "diagnostico": "Valid Geometry",
+      "valido_derivado": true,
+      "area_original_grados2": 5.366520500000002,
+      "area_derivada_grados2": 5.366520500000002,
+      "tipo_make_valid": "Polygon",
+      "segmentos_sin_area_excluidos": false
+    },
+    {
+      "nombre": "Tlaxcala",
+      "valido_original": true,
+      "diagnostico": "Valid Geometry",
+      "valido_derivado": true,
+      "area_original_grados2": 0.34312649999999906,
+      "area_derivada_grados2": 0.34312649999999906,
+      "tipo_make_valid": "Polygon",
+      "segmentos_sin_area_excluidos": false
+    },
+    {
+      "nombre": "Puebla",
+      "valido_original": false,
+      "diagnostico": "Self-intersection[-98.1479027777778 20.220762345679]",
+      "valido_derivado": true,
+      "area_original_grados2": 2.9427725,
+      "area_derivada_grados2": 2.942772359567901,
+      "tipo_make_valid": "Polygon",
+      "segmentos_sin_area_excluidos": false
+    },
+    {
+      "nombre": "Hidalgo",
+      "valido_original": false,
+      "diagnostico": "Self-intersection[-98.1479027777778 20.220762345679]",
+      "valido_derivado": true,
+      "area_original_grados2": 1.8032105,
+      "area_derivada_grados2": 1.8032106404320984,
+      "tipo_make_valid": "MultiPolygon",
+      "segmentos_sin_area_excluidos": false
+    },
+    {
+      "nombre": "Veracruz de Ignacio de la Llave",
+      "valido_original": true,
+      "diagnostico": "Valid Geometry",
+      "valido_derivado": true,
+      "area_original_grados2": 6.186911499999997,
+      "area_derivada_grados2": 6.186911499999997,
+      "tipo_make_valid": "Polygon",
+      "segmentos_sin_area_excluidos": false
+    },
+    {
+      "nombre": "Nuevo León",
+      "valido_original": true,
+      "diagnostico": "Valid Geometry",
+      "valido_derivado": true,
+      "area_original_grados2": 5.765593500000001,
+      "area_derivada_grados2": 5.765593500000001,
+      "tipo_make_valid": "Polygon",
+      "segmentos_sin_area_excluidos": false
+    },
+    {
+      "nombre": "Coahuila de Zaragoza",
+      "valido_original": true,
+      "diagnostico": "Valid Geometry",
+      "valido_derivado": true,
+      "area_original_grados2": 13.82267549999999,
+      "area_derivada_grados2": 13.82267549999999,
+      "tipo_make_valid": "Polygon",
+      "segmentos_sin_area_excluidos": false
+    },
+    {
+      "nombre": "Tamaulipas",
+      "valido_original": true,
+      "diagnostico": "Valid Geometry",
+      "valido_derivado": true,
+      "area_original_grados2": 7.139509999999998,
+      "area_derivada_grados2": 7.139509999999998,
+      "tipo_make_valid": "Polygon",
+      "segmentos_sin_area_excluidos": false
+    },
+    {
+      "nombre": "Yucatán",
+      "valido_original": false,
+      "diagnostico": "Ring Self-intersection[-89.667 21.303]",
+      "valido_derivado": true,
+      "area_original_grados2": 3.4524760000000008,
+      "area_derivada_grados2": 3.4524759999999985,
+      "tipo_make_valid": "GeometryCollection",
+      "segmentos_sin_area_excluidos": true
+    },
+    {
+      "nombre": "Campeche",
+      "valido_original": false,
+      "diagnostico": "Ring Self-intersection[-90.448 19.96]",
+      "valido_derivado": true,
+      "area_original_grados2": 4.930172499999995,
+      "area_derivada_grados2": 4.930172499999996,
+      "tipo_make_valid": "GeometryCollection",
+      "segmentos_sin_area_excluidos": true
+    },
+    {
+      "nombre": "Quintana Roo",
+      "valido_original": true,
+      "diagnostico": "Valid Geometry",
+      "valido_derivado": true,
+      "area_original_grados2": 3.8553505000000046,
+      "area_derivada_grados2": 3.8553505000000046,
+      "tipo_make_valid": "MultiPolygon",
+      "segmentos_sin_area_excluidos": false
+    }
+  ]
+}

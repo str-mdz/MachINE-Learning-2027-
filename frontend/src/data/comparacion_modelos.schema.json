@@ -1,0 +1,107 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "tabla",
+    "fuente_csv",
+    "fuente_sha256",
+    "filas",
+    "unidades",
+    "registros"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {
+      "const": "1.0"
+    },
+    "tabla": {
+      "const": "comparacion_modelos"
+    },
+    "unidades": {
+      "const": {
+        "periodo": "ver_nombre_y_diccionario",
+        "modelo": "ver_nombre_y_diccionario",
+        "n": "ver_nombre_y_diccionario",
+        "mae_pp": "puntos_porcentuales",
+        "mediana_error_abs_pp": "puntos_porcentuales",
+        "p90_error_abs_pp": "puntos_porcentuales",
+        "max_error_abs_pp": "puntos_porcentuales",
+        "sesgo_pp": "puntos_porcentuales",
+        "rmse_pp": "puntos_porcentuales",
+        "pronosticos_limitados": "ver_nombre_y_diccionario"
+      }
+    },
+    "fuente_csv": {
+      "type": "string"
+    },
+    "fuente_sha256": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "filas": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "registros": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "periodo",
+          "modelo",
+          "n",
+          "mae_pp",
+          "mediana_error_abs_pp",
+          "p90_error_abs_pp",
+          "max_error_abs_pp",
+          "sesgo_pp",
+          "rmse_pp",
+          "pronosticos_limitados"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "periodo": {
+            "type": "string"
+          },
+          "modelo": {
+            "type": "string"
+          },
+          "n": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 9007199254740991
+          },
+          "mae_pp": {
+            "type": "number",
+            "minimum": 0
+          },
+          "mediana_error_abs_pp": {
+            "type": "number",
+            "minimum": 0
+          },
+          "p90_error_abs_pp": {
+            "type": "number",
+            "minimum": 0
+          },
+          "max_error_abs_pp": {
+            "type": "number",
+            "minimum": 0
+          },
+          "sesgo_pp": {
+            "type": "number"
+          },
+          "rmse_pp": {
+            "type": "number",
+            "minimum": 0
+          },
+          "pronosticos_limitados": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 9007199254740991
+          }
+        }
+      }
+    }
+  }
+}

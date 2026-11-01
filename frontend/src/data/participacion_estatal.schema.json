@@ -1,0 +1,191 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "tabla",
+    "fuente_csv",
+    "fuente_sha256",
+    "filas",
+    "unidades",
+    "registros"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {
+      "const": "1.0"
+    },
+    "tabla": {
+      "const": "participacion_estatal"
+    },
+    "fuente_csv": {
+      "type": "string"
+    },
+    "fuente_sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "filas": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "unidades": {
+      "const": {
+        "anio": "ver_nombre_y_diccionario",
+        "entidad_clave": "clave_texto_2_digitos",
+        "entidad_nombre": "ver_nombre_y_diccionario",
+        "lista_nominal": "ver_nombre_y_diccionario",
+        "si_votaron": "ver_nombre_y_diccionario",
+        "no_votaron": "ver_nombre_y_diccionario",
+        "no_especificados": "ver_nombre_y_diccionario",
+        "filas_origen": "ver_nombre_y_diccionario",
+        "filas_edad_revision": "ver_nombre_y_diccionario",
+        "filas_distrito_faltante": "ver_nombre_y_diccionario",
+        "marco_distrital_diccionario": "ver_nombre_y_diccionario",
+        "fecha_original": "ver_nombre_y_diccionario",
+        "fuente_zip": "ver_nombre_y_diccionario",
+        "conocidos": "ver_nombre_y_diccionario",
+        "participacion": "proporcion_0_1",
+        "abstencion": "proporcion_0_1",
+        "proporcion_no_especificada": "proporcion_0_1",
+        "cobertura_conocida": "proporcion_0_1"
+      }
+    },
+    "registros": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "anio",
+          "entidad_clave",
+          "entidad_nombre",
+          "lista_nominal",
+          "si_votaron",
+          "no_votaron",
+          "no_especificados",
+          "filas_origen",
+          "filas_edad_revision",
+          "filas_distrito_faltante",
+          "marco_distrital_diccionario",
+          "fecha_original",
+          "fuente_zip",
+          "conocidos",
+          "participacion",
+          "abstencion",
+          "proporcion_no_especificada",
+          "cobertura_conocida"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "anio": {
+            "type": [
+              "integer"
+            ],
+            "description": "ver_nombre_y_diccionario"
+          },
+          "entidad_clave": {
+            "type": "string",
+            "description": "clave_texto_2_digitos",
+            "pattern": "^(0[1-9]|[12][0-9]|3[0-2])$"
+          },
+          "entidad_nombre": {
+            "type": [
+              "string"
+            ],
+            "description": "ver_nombre_y_diccionario"
+          },
+          "lista_nominal": {
+            "type": [
+              "integer"
+            ],
+            "description": "ver_nombre_y_diccionario"
+          },
+          "si_votaron": {
+            "type": [
+              "integer"
+            ],
+            "description": "ver_nombre_y_diccionario"
+          },
+          "no_votaron": {
+            "type": [
+              "integer"
+            ],
+            "description": "ver_nombre_y_diccionario"
+          },
+          "no_especificados": {
+            "type": [
+              "integer"
+            ],
+            "description": "ver_nombre_y_diccionario"
+          },
+          "filas_origen": {
+            "type": [
+              "integer"
+            ],
+            "description": "ver_nombre_y_diccionario"
+          },
+          "filas_edad_revision": {
+            "type": [
+              "integer"
+            ],
+            "description": "ver_nombre_y_diccionario"
+          },
+          "filas_distrito_faltante": {
+            "type": [
+              "integer"
+            ],
+            "description": "ver_nombre_y_diccionario"
+          },
+          "marco_distrital_diccionario": {
+            "type": [
+              "integer"
+            ],
+            "description": "ver_nombre_y_diccionario"
+          },
+          "fecha_original": {
+            "type": [
+              "string"
+            ],
+            "description": "ver_nombre_y_diccionario"
+          },
+          "fuente_zip": {
+            "type": [
+              "string"
+            ],
+            "description": "ver_nombre_y_diccionario"
+          },
+          "conocidos": {
+            "type": [
+              "integer"
+            ],
+            "description": "ver_nombre_y_diccionario"
+          },
+          "participacion": {
+            "type": [
+              "number"
+            ],
+            "description": "proporcion_0_1"
+          },
+          "abstencion": {
+            "type": [
+              "number"
+            ],
+            "description": "proporcion_0_1"
+          },
+          "proporcion_no_especificada": {
+            "type": [
+              "number"
+            ],
+            "description": "proporcion_0_1"
+          },
+          "cobertura_conocida": {
+            "type": [
+              "number"
+            ],
+            "description": "proporcion_0_1"
+          }
+        }
+      }
+    }
+  }
+}

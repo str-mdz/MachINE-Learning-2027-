@@ -1,0 +1,197 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "tabla",
+    "fuente_csv",
+    "fuente_sha256",
+    "filas",
+    "unidades",
+    "registros"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {
+      "const": "1.0"
+    },
+    "tabla": {
+      "const": "escenarios_2027"
+    },
+    "unidades": {
+      "const": {
+        "entidad_clave": "clave_texto_2_digitos",
+        "entidad_nombre": "ver_nombre_y_diccionario",
+        "anio_proyeccion": "ver_nombre_y_diccionario",
+        "tipo_eleccion": "ver_nombre_y_diccionario",
+        "anio_fuente": "ver_nombre_y_diccionario",
+        "metodo": "ver_nombre_y_diccionario",
+        "abstencion_2021_pct": "porcentaje_0_100",
+        "abstencion_referencia_pct": "porcentaje_0_100",
+        "participacion_referencia_pct": "porcentaje_0_100",
+        "residual_estimado_pp": "puntos_porcentuales",
+        "prediccion_sin_limitar_pct": "porcentaje_0_100",
+        "diferencia_2021_2027_pp": "puntos_porcentuales",
+        "limitada_0_100": "ver_nombre_y_diccionario",
+        "conocidos_2021": "ver_nombre_y_diccionario",
+        "peso_nacional": "proporcion_0_1",
+        "no_especificados_2021": "ver_nombre_y_diccionario",
+        "escenario": "ver_nombre_y_diccionario",
+        "reduccion_supuesta_pp": "puntos_porcentuales",
+        "abstencion_escenario_pct": "porcentaje_0_100",
+        "participacion_escenario_pct": "porcentaje_0_100",
+        "reduccion_efectiva_pp": "puntos_porcentuales",
+        "limitado_en_cero": "ver_nombre_y_diccionario"
+      }
+    },
+    "fuente_csv": {
+      "type": "string"
+    },
+    "fuente_sha256": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "filas": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "registros": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "entidad_clave",
+          "entidad_nombre",
+          "anio_proyeccion",
+          "tipo_eleccion",
+          "anio_fuente",
+          "metodo",
+          "abstencion_2021_pct",
+          "abstencion_referencia_pct",
+          "participacion_referencia_pct",
+          "residual_estimado_pp",
+          "prediccion_sin_limitar_pct",
+          "diferencia_2021_2027_pp",
+          "limitada_0_100",
+          "conocidos_2021",
+          "peso_nacional",
+          "no_especificados_2021",
+          "escenario",
+          "reduccion_supuesta_pp",
+          "abstencion_escenario_pct",
+          "participacion_escenario_pct",
+          "reduccion_efectiva_pp",
+          "limitado_en_cero"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "entidad_clave": {
+            "type": "string",
+            "pattern": "^(0[1-9]|[12][0-9]|3[0-2])$"
+          },
+          "entidad_nombre": {
+            "type": "string"
+          },
+          "anio_proyeccion": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 9007199254740991,
+            "const": 2027
+          },
+          "tipo_eleccion": {
+            "type": "string",
+            "const": "intermedia"
+          },
+          "anio_fuente": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 9007199254740991,
+            "const": 2024
+          },
+          "metodo": {
+            "type": "string",
+            "const": "ridge_residual"
+          },
+          "abstencion_2021_pct": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 100
+          },
+          "abstencion_referencia_pct": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 100
+          },
+          "participacion_referencia_pct": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 100
+          },
+          "residual_estimado_pp": {
+            "type": "number"
+          },
+          "prediccion_sin_limitar_pct": {
+            "type": "number"
+          },
+          "diferencia_2021_2027_pp": {
+            "type": "number"
+          },
+          "limitada_0_100": {
+            "type": "boolean"
+          },
+          "conocidos_2021": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 9007199254740991
+          },
+          "peso_nacional": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1
+          },
+          "no_especificados_2021": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 9007199254740991
+          },
+          "escenario": {
+            "type": "string",
+            "enum": [
+              "sin_intervencion",
+              "con_intervencion"
+            ]
+          },
+          "reduccion_supuesta_pp": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 9007199254740991,
+            "enum": [
+              0,
+              1,
+              3,
+              5
+            ]
+          },
+          "abstencion_escenario_pct": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 100
+          },
+          "participacion_escenario_pct": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 100
+          },
+          "reduccion_efectiva_pp": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 100
+          },
+          "limitado_en_cero": {
+            "type": "boolean"
+          }
+        }
+      }
+    }
+  }
+}

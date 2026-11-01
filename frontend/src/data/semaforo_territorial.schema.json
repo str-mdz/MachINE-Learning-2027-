@@ -1,0 +1,103 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "tabla",
+    "fuente_csv",
+    "fuente_sha256",
+    "filas",
+    "unidades",
+    "registros"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {
+      "const": "1.0"
+    },
+    "tabla": {
+      "const": "semaforo_territorial"
+    },
+    "unidades": {
+      "const": {
+        "entidad_clave": "clave_texto_2_digitos",
+        "entidad_nombre": "ver_nombre_y_diccionario",
+        "anio_proyeccion": "ver_nombre_y_diccionario",
+        "abstencion_referencia_pct": "porcentaje_0_100",
+        "riesgo_relativo": "ver_nombre_y_diccionario",
+        "umbral_bajo_pct": "porcentaje_0_100",
+        "umbral_medio_pct": "porcentaje_0_100",
+        "criterio": "ver_nombre_y_diccionario"
+      }
+    },
+    "fuente_csv": {
+      "type": "string"
+    },
+    "fuente_sha256": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "filas": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "registros": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "entidad_clave",
+          "entidad_nombre",
+          "anio_proyeccion",
+          "abstencion_referencia_pct",
+          "riesgo_relativo",
+          "umbral_bajo_pct",
+          "umbral_medio_pct",
+          "criterio"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "entidad_clave": {
+            "type": "string",
+            "pattern": "^(0[1-9]|[12][0-9]|3[0-2])$"
+          },
+          "entidad_nombre": {
+            "type": "string"
+          },
+          "anio_proyeccion": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 9007199254740991,
+            "const": 2027
+          },
+          "abstencion_referencia_pct": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 100
+          },
+          "riesgo_relativo": {
+            "type": "string",
+            "enum": [
+              "bajo",
+              "medio",
+              "alto"
+            ]
+          },
+          "umbral_bajo_pct": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 100
+          },
+          "umbral_medio_pct": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 100
+          },
+          "criterio": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}
